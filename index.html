@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The best pandie</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .clickable-image {
+            width: 80%; /* Adjust this percentage as needed */
+            max-width: 800px; /* Optional: max-width to prevent the image from becoming too large */
+        }
+        .clickable-image img {
+            width: 100%; /* Image takes up 100% of the .clickable-image container's width */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="clickable-image">
+        <a href="https://tools.usps.com/go/TrackConfirmAction!input.action?tLabels=CH216409306US" target="_blank">
+            <img src="nyc.jpg" alt="Clickable Image">
+        </a>
+    </div>
+</body>
+</html>
